@@ -5,85 +5,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Learning Portfolio</title>
     <link rel="stylesheet" href="./css/style.css">
-    <!--VV Bootstrap Stuff VV-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <!--JS don't need but add just incase VV-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
-<body> 
-    <h1><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Learning Portfolio😎</a></h1>
-                <!-- ^^^^ ลิ้งคลิปที่ผมชอบมากๆควรดูสุดๆ ^^^^ -->
+<body class="bg-light">
 
-    <section id="about">
-        <div id="boxabout">
-        <h2>About Me</h2>
-        </div>
-        <img src="./media/IMG_20260829_235027.jpg" alt="my pic" width="240" height="300" id="mepic">
-        <p>
-            สวัสดีครับผม นายณัฐชนน จันทร์แพทย์รักษ์ <br>รหัสนักศึกษา 6909650209 <br>ชอบอ่าน<a href="https://asurascans.com/">Manhwa</a>
-        </p>
-    </section>
+    <header class="text-center p-4 p-md-5 mb-4 bg-white rounded-3 shadow-sm border container mt-4">
+        <h1 class="display-5 fw-bold text-primary">Learning Portfolio😎</h1>
+        <p class="lead text-muted">A showcase of my journey in Computer Science & Web Development</p>
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="btn btn-outline-danger btn-sm mt-2" target="_blank">🎬 My Favorite Video</a>
+    </header>
 
-    <section id="whatB">
-       <div>
-        <h2>What I Built</h2>
-        </div>
-        <p>
-            ผมได้สร้างเว็บไซต์แบบหน้าเดียว เกี่ยวกับการพัฒนาเว็บไซต์เบื้องต้น โดยใช้ HTML และ CSS โดยมีการใช้ส่วนประกอบดังนี้
-        </p>
-        <ul style="list-style: square;">
-            <li>เนื้อหาหลัก 4 ส่วน: About Me, What I Built, How I Built It และ Reflection</li>
-            <li>ลิงก์ไปยังวิดีโอที่เกี่ยวข้อง</li>
-            <li>การใช้Embed videoจากyoutube</li>
-        </ul>
-        <p>
-            Client และ Server:
-            มีClientเกิดขึ้นแล้วแต่ไม่มีServerเกิดขึ้น เพราะเบราว์เซอร์จะทำหน้าที่เปิดไฟล์ขึ้นมาอ่านโค้ดและแสดงผลทันทีโดยข้ามกระบวนการส่ง Request/Response ผ่าน HTTP ไป
-        </p>
-    </section>   
+    <main class="container">
 
-    <section id="howB">
-        <div>
-        <h2>How I Built It</h2>
-        </div>
-        <p>
-            ผมใช้แอพ VS code เพื่อเขียนโค้ด Html และ Css โดยมีการใช้ Extension หลักๆตามนี้
-        </p>
-        <ol>
-            <li>Live preview จาก Microsoft ใช้ในการดูตัวอย่างของโค้ดที่เขียนมา</li>
-            <li>HTML CSS Support จาก ecmel โหลดsupport html กับ css ให้ vs code <small>ปล.ผมไม่รู้ว่าต้องใช้ไหมแต่โหลดมาไว้ก่อน</small></li>
-        </ol>
-        <p>
-            ขั้นตอนการพัฒนางานนี้มีดังนี้
-        </p>
-        <ol>
-            <li>วางโครงสร้าง HTML อย่างsectionสำหรับหัวข้อต่างๆ</li>
-            <li>แยก CSS ออกจาก HTML และจัดเก็บไว้ในไฟล์</li>
-            <li>ทดสอบเปิดเว็บไซต์ในเบราว์เซอร์และตรวจสอบว่าไม่มี broken link</li>
-        </ol>
-        <p>
-            คลิปวิดิโอจากช่องที่ผมใช้ศึกษา(และชอบดู)แนะนำมากๆ
-        </p>
-        <iframe width="320" height="180" src="https://www.youtube.com/embed/HGTJBPNC-Gw?list=PLZPZq0r_RZOPP5Yjt6IqgytMRY5uLt4y3" title="คลิปสอน HTML และ CSS จากช่อง Bro code" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        <p>
-            ส่วนวิธีการembed videoได้มาจากyoutubeตามรูปด้านล่าง<small>(มีประโยชน์มากๆ)</small>
-        </p>
-        <img src="./media/Das2Wq1e3.png" alt="Embed video picture link">
-    </section>
- 
-    <section id="reflec">
-        <div>
-        <h2>Reflection</h2>
-        </div>
-        <ul style="list-style: circle;">
-            <li>ความท้าทายที่พบคือการจัด layout ให้ดูเป็นระเบียบ</li>
-            <li>จากการทำงานนี้ เข้าใจมากขึ้นว่า HTML ใช้กำหนดโครงสร้างและความหมายของเนื้อหาส่วน CSS ใช้จัดรูปแบบและ layout</li>
-            <li>หากได้พัฒนางานนี้ต่ออยากปรับสีสันให้สวยงามและเป็นเอกลักษณ์มากขึ้นเพราะเว็บไซต์ที่ดีควรใช้งานได้สะดวกและสื่อสารตัวตนได้ชัดเจน</li>
-        </ul>
-        <p>ps.I love coding</p>
-        <img src="./media/1782865314324.jpg" alt="it's very easy" width="320px" height="250px">
-    </section>   
+        <!-- About Me Section -->
+        <section id="about" class="card shadow-sm p-4 mb-4 border-0 bg-white">
+            <div class="row align-items-center">
+                <!-- Image Column -->
+                <div class="col-12 col-md-4 text-center mb-3 mb-md-0">
+                    <img src="./media/IMG_20260829_235027.jpg" alt="Profile of Natchanon" class="img-fluid rounded shadow" style="max-width: 200px; object-fit: cover;">
+                </div>
+                <!-- Info Column -->
+                <div class="col-12 col-md-8 text-center text-md-start">
+                    <h2 class="h3 fw-bold text-dark mb-2">About Me</h2>
+                    <p class="lead mb-1"><strong>นายณัฐชนน จันทร์แพทย์รักษ์</strong> (6909650209)</p>
+                    <p class="text-muted mb-2">สาขาวิชาวิทยาการคอมพิวเตอร์ มหาวิทยาลัยธรรมศาสตร์</p>
+                    <p class="mb-3">ความสนใจ: Web Development, Software Engineering และชอบอ่าน <a href="https://asurascans.com/" target="_blank" class="text-decoration-none">Manhwa</a></p>
+                    <div>
+                        <span class="badge bg-primary">HTML5</span>
+                        <span class="badge bg-info text-dark">CSS3</span>
+                        <span class="badge bg-secondary">Bootstrap 5</span>
+                    </div>
+                </div>
+            </div>
+        </section>
 
+
+    </main>
+
+    <footer class="text-center py-4 mt-5 text-muted border-top">
+        <p class="mb-0">© 2026 Natchanon Chanpaetrak. Built for CS100 Assignment 2.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmxc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
